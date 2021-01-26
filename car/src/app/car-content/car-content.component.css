@@ -1,0 +1,132 @@
+body{
+    /* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg'); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; */
+    width: 100%;
+    height: 42em;
+    background-image: url(https://icdn2.digitaltrends.com/image/digitaltrends/2020_supra_exterior_023_28b46ec7836aaa289b1bccd1af944a6cd456faf1.jpg);
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Numans', sans-serif;
+    }
+    
+    .container{
+        height: 100%;
+        align-content: center;
+        }
+        
+        .card{
+        height: 370px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 400px;
+        background-color: rgba(0,0,0,0.5) !important;
+        }
+        
+        .social_icon span{
+        font-size: 60px;
+        margin-left: 10px;
+        color: #FFC312;
+        }
+        
+        .social_icon span:hover{
+        color: white;
+        cursor: pointer;
+        }
+        
+        .card-header h3{
+        color: white;
+        }
+        
+        .social_icon{
+        position: absolute;
+        right: 20px;
+        top: 198px;
+        }
+        
+        .input-group-prepend span{
+        width: 50px;
+        background-color: #FFC312;
+        color: black;
+        border:0 !important;
+        }
+        
+        input:focus{
+        outline: 0 0 0 0  !important;
+        box-shadow: 0 0 0 0 !important;
+        
+        }
+        
+        .remember{
+        color: white;
+        }
+        
+        .remember input
+        {
+        width: 20px;
+        height: 20px;
+        margin-left: 15px;
+        margin-right: 5px;
+        }
+        
+        .login_btn{
+        color: black;
+        background-color: #FFC312;
+        width: 100px;
+        }
+        
+        .login_btn:hover{
+        color: black;
+        background-color: white;
+        }
+        
+        .links{
+        color: white;
+        }
+        
+        .links a{
+        margin-left: 4px;
+        }
+
+    
+    
+    /* .search-sec{
+        padding: 2rem;
+    }
+    .search-slt{
+        display: block;
+        width: 100%;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        color: #55595c;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        height: calc(3rem + 3px) !important;
+        border-radius:0;
+    }
+    .wrn-btn{
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: capitalize;
+        height: calc(2.6rem + 2px) !important;
+        border-radius:0;
+    }
+    @media (min-width: 992px){
+        .search-sec{
+            position: relative;
+            top: -114px;
+            background: rgba(26, 70, 104, 0.51);
+        }
+    }
+    
+    @media (max-width: 992px){
+        .search-sec{
+            background: #1A4668;
+        }
+    } */

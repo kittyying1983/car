@@ -1,0 +1,576 @@
+/* .car-detail{
+    font-family: 'Kanit', sans-serif;
+    margin-left: 3%; 
+    margin-right: 3%;
+    position: relative;
+} */
+
+/* .numdaysrent {
+    text-align: center;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+} */
+
+/* .price {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+} */
+
+/* .starReview {
+    font-size: 100%;
+    color: orange;
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+} */
+
+/* .card.point {
+    top: 5%;
+    text-align: center;
+    font-size: 100%;
+    width: 50%;
+    height: auto;
+    background: white;
+    border-color: #005cbf;
+    color: #005cbf;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+} */
+
+
+/* .fa.fa-check{
+    font-size: 0.01px;
+    color: green;
+}
+
+.service {
+    font-size: 100%;
+    color: green;
+    font-family: 'Kanit', sans-serif;
+}
+
+.carseat {
+    font-size: 16px;
+    width: 1.3em;
+    text-align: right;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cardoor {
+    font-size: 16px;
+    width: 1.3em;
+    text-align: right;
+    font-family: 'Kanit', sans-serif;
+}
+
+.suitcase {
+    font-size: 16px;
+    width: 1.2em;
+    text-align: right;
+    font-family: 'Kanit', sans-serif;
+}
+
+.suitcase-rolling {
+    width: 1.2em;
+    text-align: right;
+    font-family: 'Kanit', sans-serif;
+}
+
+.snowflake {
+    font-size: 10px;
+    width: 1.5em;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cargear {
+    font-size: 10px;
+    width: 1.5em;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.car-img {
+    vertical-align: middle;
+    max-width:90%;
+    height: auto;
+    margin: auto;
+}
+
+.daysrent{
+    font-size: 16px;
+    text-align: center;
+}
+
+.price{
+    font-size: 20px;
+    text-align: center;  
+}
+.submit{
+    text-align: center;
+    font-size: 100%;
+} */
+
+/* .Supplier{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: white;
+    margin: auto;
+    font-family: 'Kanit', sans-serif;
+}
+
+.carBrand{
+    font-size: 160%;
+} */
+
+
+
+
+/* @import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+    color: orange;
+}
+
+.price-color{
+    color: orange; 
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    width: 50%;
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+
+
+
+#ads .card-notify-badge {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    background: #f2d900;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px; 
+    color: #000;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-seat {
+    position: absolute;
+    left: 30px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-door {
+    position: absolute;
+    left: 85px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-luggage {
+    position: absolute;
+    left: 142px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-rolling {
+    position: absolute;
+    left: 198px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-air {
+    position: absolute;
+    left: 247px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#ads .card-notify-gear {
+    position: absolute;
+    left: 308px;
+    top: 225px;
+    background-color: #1a69ca;
+    color: #1e1717;
+    border: 1px solid #1a69ca;
+    background: transparent;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    font-size: 14px;      
+    padding: 5px 8px;
+    font-family: 'Kanit', sans-serif;
+} */
+
+
+/* .product_view .modal-dialog{max-width: 1000px; width: 100%;} */
+/* .pre-cost{text-decoration: line-through; color: #cf3c3c;} */
+/* .space-ten{padding: 10px 0;} */
+
+
+
+
+/********************* Shopping Demo-4 **********************/
+.product-grid4,.product-grid4 .product-image4{
+    position:relative
+}
+.product-grid4{
+    /* font-family:Poppins,sans-serif; */
+    font-family: 'Kanit', sans-serif;
+    text-align:center;
+    border-radius:5px;
+    overflow:hidden;
+    z-index:1;
+    transition:all .3s ease 0s
+}
+.product-grid4:hover{
+    box-shadow:0 0 10px rgba(0,0,0,.2)
+}
+.product-grid4 .product-image4 a{
+    display:block
+}
+.product-grid4 .product-image4 img{
+    width:100%;
+    height:auto;
+    max-width: 400px;
+    max-height: 200px;
+    margin-top: 25px;
+}
+.product-grid4 .pic-1{
+    opacity:1;
+    transition:all .5s ease-out 0s
+}
+.product-grid4:hover .pic-1{
+    opacity:0
+}
+.product-grid4 .pic-2{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    transition:all .5s ease-out 0s
+}
+.product-grid4:hover .pic-2{
+    opacity:1
+}
+.product-grid4 .social{
+    width:180px;
+    padding:0;
+    margin:0 auto;
+    list-style:none;
+    position:absolute;
+    right:0;
+    left:0;
+    top:50%;
+    transform:translateY(30%);
+    transition:all .3s ease 0s
+}
+.product-grid4 .social li{
+    display:inline-block;
+    opacity:0;
+    transition:all .7s
+}
+.product-grid4:hover .social li{transform:translateX(0)}
+.product-grid4:hover .social li:nth-child(2){transition-delay:.15s}
+.product-grid4:hover .social li:nth-child(3){transition-delay:.25s}
+/* .product-grid4 .social li:nth-child(1){
+    transition-delay:.15s
+}
+.product-grid4 .social li:nth-child(2){
+    transition-delay:.3s
+}
+.product-grid4 .social li:nth-child(3){
+    transition-delay:.45s
+} */
+.product-grid4:hover .social li{
+    opacity:1
+}
+.product-grid4 .social li a{
+    color:#fff;
+    background:#222;
+    font-size:16px;
+    line-height:36px;
+    width:40px;
+    height:36px;
+    border-radius:2px;
+    margin:0 5px;
+    display:block;
+    transition:all .3s ease 0s
+}
+.product-grid4 .social li a:hover{
+    color:#fff;
+    background:#1a69ca
+}
+.product-grid4 .social li a:after,.product-grid4 .social li a:before{
+    content:attr(data-tip);
+    color:#fff;
+    background-color:#000;
+    font-size:12px;
+    line-height:20px;
+    border-radius:3px;
+    padding:0 5px;
+    white-space:nowrap;
+    opacity:0;
+    transform:translateX(-50%);
+    position:absolute;
+    left:50%;
+    top:-30px
+}
+.product-grid4 .social li a:after{
+    content:'';
+    height:15px;
+    width:15px;
+    border-radius:0;
+    transform:translateX(-50%) rotate(45deg);
+    top:-22px;
+    z-index:-1
+}
+.product-grid4 .social li a:hover:after,.product-grid4 .social li a:hover:before{
+    opacity:1
+}
+.product-grid4 .product-new-label{
+    color:#fff;
+    background-color:#333;
+    font-size:12px;
+    font-weight:800;
+    text-transform:uppercase;
+    line-height:45px;
+    height:45px;
+    width:40%;
+    border-radius:3%;
+    position:absolute;
+    left:10px;
+    top:15px;
+    transition:all .3s
+}
+.product-grid4 .product-discount-label{
+    color:#fff;
+    background-color:#333;
+    font-size:12px;
+    font-weight:800;
+    text-transform:uppercase;
+    line-height:45px;
+    height:45px;
+    width:45px;
+    border-radius:5%;
+    position:absolute;
+    left:10px;
+    top:15px;
+    transition:all .3s
+}
+.product-grid4 .product-discount-label{
+    left:auto;
+    right:10px;
+    background-color:#d7292a
+}
+.product-grid4:hover .product-new-label{
+    opacity:0
+}
+.product-grid4 .product-content{
+    padding:25px
+}
+.product-grid4 .rating{
+    color:#f2d900;
+    font-size:12px;
+    padding:0;
+    margin:0 0 10px;
+    list-style:none
+}
+.product-grid4 .title{
+    font-size:15px;
+    font-weight:400;
+    text-transform:capitalize;
+    margin:0 0 7px;
+    transition:all .3s ease 0s
+}
+.product-grid4 .title a{
+    color:#222
+}
+.product-grid4 .title a:hover{
+    color:#1a69ca
+}
+.product-grid4 .price{
+    color:#1a69ca;
+    font-size:17px;
+    font-weight:700;
+    margin:0 2px 15px 0;
+    display:block
+}
+.product-grid4 .price span{
+    color:#909090;
+    font-size:13px;
+    font-weight:400;
+    letter-spacing:0;
+    text-decoration:line-through;
+    text-align:left;
+    vertical-align:middle;
+    display:inline-block
+}
+.product-grid4 .add-to-cart{
+    border:1px solid #e5e5e5;
+    display:inline-block;
+    padding:10px 20px;
+    color:#888;
+    font-weight:600;
+    font-size:14px;
+    border-radius:4px;
+    transition:all .3s
+}
+.product-grid4:hover .add-to-cart{
+    border:1px solid transparent;
+    /* background:#16a085; */
+    background:#1a69ca;
+    color:#fff
+}
+.product-grid4 .add-to-cart:hover{
+    background-color:#505050;
+    box-shadow:0 0 10px rgba(0,0,0,.5)
+}
+@media only screen and (max-width:990px){
+    .product-grid4{margin-bottom:30px}
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+<p></p>
+<div class="container">
+    <br>
+    <h3 class="h3"></h3>
+    <div class="row" *ngIf="states">
+        <div class="col-md-4 col-sm-6" *ngFor="let result of states">
+            <div class="product-grid4">
+                <div class="product-image4">
+                    <a href="#">
+                        <img class="pic-1" src="{{result.cars.img_car}}">
+                        <img class="pic-2" src="{{result.cars.img_car}}">
+                    </a>
+                    <ul class="social">
+                        <li><a href="{{result.cars.img_car}} #product_view" data-tip="ดูรายละเอียด" data-toggle="modal" data-target="#product_view"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="เลือก"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="จอง">
+                            <!-- <i class="fa fa-shopping-cart"></i> -->
+                            <i class="fas fa-suitcase"></i>
+                        </a></li>
+                        <h3></h3>
+                        <li><a href="#" data-tip="Quick View">
+                            <!-- <i class="fa fa-eye"></i> -->
+                            <i class="far fa-snowflake"></i>                        
+                        </a></li>
+                        <li><a href="#" data-tip="Add to Wishlist">
+                            <i class="fa fa-shopping-bag"></i>
+                        </a></li>
+                        <li><a href="#" data-tip="Add to Cart">
+                            <!-- <i class="fa fa-shopping-cart"></i> -->
+                            <i class="fas fa-suitcase-rolling"></i>
+                        </a></li>
+                    </ul>
+                    <span class="product-new-label">{{result.cars.brand_name}}
+                        {{result.cars.model}}</span>
+                    <span class="product-discount-label">-10%</span>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="#">{{result.cars.brand_name}}
+                        {{result.cars.model}}</a></h3>
+                    <ul class="rating">
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                        <li class="fa fa-star"></li>
+                    </ul>
+                    <div class="price">
+                        {{result.details_cars.price}}฿
+                        <span>2,590.00฿</span>
+                    </div>
+                    <a class="add-to-cart" href="">เลือก</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
+<!-- <hr> -->
+<br>
+
+
+
+
+

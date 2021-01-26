@@ -1,0 +1,60 @@
+<!-- <p>search-menu works!</p> -->
+<section class="search-sec">
+    <div class="container">
+            <form (ngSubmit)="SubmitNewSearch(myForm)" #myForm="ngForm" ngNativeValidate>    
+            <div class="row">
+                <div class="col-lg-12" >
+                    <div class="row" *ngIf="results">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <input list=text_editors class="form-control search-slt" [(ngModel)]="data.inputStateIn" title="เลือก"
+                                name="inputStateIn" #inputStateIn="ngModel"
+                                (change)='onOptionsSelected(inputStateIn.value)' required>
+                            <datalist id="text_editors">
+                                <select multiple size=8 *ngFor="let result of results">
+                                    <option [value]="result.influencers.location.name_th">
+                                        {{ result.influencers.location.name_th }}
+                                </select>
+                            </datalist>
+                            <!-- <ng-container *ngIf="ShowCheckOut">
+                                <label for="inputStateOut">สถานที่คืนรถ</label>
+                                <input list=text_editors class="form-control search-slt" [(ngModel)]="data.inputStateOut"
+                                    title="เลือก" name="inputStateOut" #inputStateOut="ngModel"
+                                    (change)='onOptionsSelected(inputStateOut.value)' required>
+                                <datalist id="text_editors">
+                                    <select multiple size=8 *ngFor="let result of results">
+                                        <option [value]="result.influencers.location.name_th">
+                                            {{ result.influencers.location.name_th }}
+                                    </select>
+                                </datalist>
+                            </ng-container> -->
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                            <input (change)="Change_Date_In($event);" type="date" value="" min="{{DIn()}}" id="date" class="form-control search-slt" required
+                                [(ngModel)]="day_in"  name="DayIn" />
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 p-0">
+                           <input type="time" class="form-control search-slt" [(ngModel)]="data.TimeIn" required id="TimeIn"
+                                value="10:00:00" name="TimeIn" />
+                        </div>
+                        
+                        <div class="col-lg-2 col-md-2 col-sm-12 p-0">
+                            <input type="date" value="" min="{{DOut(DIn)}}" id="date" class="form-control search-slt"
+                                [(ngModel)]="day_out" name="DayOut" required />
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 p-0">
+                            <input type="time" class="form-control search-slt" [(ngModel)]="data.TimeIn" required id="TimeIn"
+                                 value="10:00:00" name="TimeIn" />
+                         </div>
+                        <div class="col-lg-1 col-md-1 col-sm-12 p-0">
+                            <!-- <button type="button" class="btn btn-danger wrn-btn">Search</button> -->
+                            <button class="btn btn-primary wrn-btn" type="submit">ค้นหา</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+

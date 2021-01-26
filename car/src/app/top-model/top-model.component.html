@@ -1,0 +1,58 @@
+    <div class="container">
+        <br>
+        <h2><i class="fas fa-car"></i> เช่ารถในที่เที่ยวยอดนิยม</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" *ngFor="let result of results;">
+                    <div class="row blog" id="ads">
+                        <div class="col-md-12" >
+                            <div class="card rounded">
+                                <div class="card-image-1">
+                                    <img class="img-fluid" src="{{result.cars.car_location.img_place}}" alt="Alternate Text" />
+                                </div>
+                                <div class="card-body text-center">
+                                    <div class="ad-title m-auto">
+                                        <h5>{{result.cars.car_location.province_th}}</h5>
+                                    </div>
+                                    <a class="ad-btn" (click)="onClick(result.cars.car_location.province_th)"> เริ่มต้นที่ {{result.details_cars.price}} ฿ >> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2><i class="fas fa-star"></i> รถยอดนิยม</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" *ngFor="let result of results ">
+                    <div class="row blog" id="ads">
+                        <div class="col-md-12" >
+                            <div class="card rounded">
+                                <div class="card-image-2">
+                                    <span class="card-notify-badge">{{result.cars.category}}</span>
+                                    <span class="card-notify-year">คัน</span>
+                                    <img class="img-fluid" src="{{result.cars.img_car}}" alt="Alternate Text" />
+                                </div>
+                                <div class="card-body text-center">
+                                    <div class="ad-title m-auto">
+                                        <h5>{{result.cars.brand_name}}</h5>
+                                        <h5>{{result.cars.model}}</h5>
+                                    </div>
+                                    <a class="ad-btn" (click)="onClickMD(result.cars.model)">เริ่มต้นที่ {{result.pricecar}} ฿ >></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>

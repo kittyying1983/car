@@ -1,0 +1,25 @@
+.position-absolute {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.bg-head {
+    width: 100%;
+    height: 46.5em;
+    background-image: url(https://icdn2.digitaltrends.com/image/digitaltrends/2020_supra_exterior_023_28b46ec7836aaa289b1bccd1af944a6cd456faf1.jpg);
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+

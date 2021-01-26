@@ -1,0 +1,62 @@
+<!-- <p></p>
+<br>
+<div class="container">
+    <br>
+    <h2><i class="fas fa-car"></i> เช่ารถในที่เที่ยวยอดนิยม</h2>
+    <div *ngIf="results">
+        <div class="row blog" id="ads">
+            <div class="col-md-12">
+                <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4" *ngFor="let result of results | slice:0 :3 ;">
+                                    <div class="card rounded">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="{{result.img_place}}" alt="Alternate Text" />
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <div class="ad-title m-auto">
+                                                <h5>{{result.place}}</h5>
+                                            </div>
+                                            <div class="card-image-overlay m-auto">
+                                                <span class="card-detail-badge">เริ่มต้นที่ {{result.pricecar}} ฿</span>
+                                            </div>
+                                            <a class="ad-btn" href="#">ดูรายละเอียด</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4" *ngFor="let result of results | slice:4 :9 ;">
+                                    <div class="card rounded">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="{{result.img_place}}" alt="Alternate Text" />
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <div class="ad-title m-auto">
+                                                <h5>{{result.place}}</h5>
+                                            </div>
+                                            <div class="card-image-overlay m-auto">
+                                                <span class="card-detail-badge">เริ่มต้นที่ {{result.pricecar}} ฿</span>
+                                            </div>
+                                            <a class="ad-btn" href="#">ดูรายละเอียด</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                -->
+ 

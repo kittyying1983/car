@@ -1,0 +1,98 @@
+<body>
+    <div class="search-car">
+        <div class="card-body search-car">
+            <div class="title">
+                <h1>เลือกรถในแบบที่คุณต้องการ</h1>
+            </div>
+            <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm" ngNativeValidate>
+                <div class="row sentout">
+                    <div class="col-sm-8 col-4">
+                        <label for="StateIn">สถานที่รับรถ</label>
+                    </div>
+                    <div class="col-sm-4 col-8">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="DiffLocation"
+                                    (click)="toggleCheckOut()">คืนรถคนละจุดกับที่รับรถ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" *ngIf="results">
+                        <input list=text_editors class="form-control" [(ngModel)]="data.inputStateIn" title="เลือก"
+                            name="inputStateIn" #inputStateIn="ngModel" (change)='onOptionsSelected(inputStateIn.value)'
+                            required>
+                        <datalist id="text_editors">
+                            <select multiple size=8 *ngFor="let result of results">
+                                <option [value]="result.influencers.location.name_th">
+                                    <!-- {{ result.influencers.location.name_th }}  -->
+                            </select>
+                        </datalist>
+                        <ng-container *ngIf="ShowCheckOut">
+                            <label for="inputStateOut">สถานที่คืนรถ</label>
+                            <input list=text_editors class="form-control" [(ngModel)]="data.inputStateOut" title="เลือก"
+                                name="inputStateOut" #inputStateOut="ngModel"
+                                (change)='onOptionsSelected(inputStateOut.value)' required>
+                            <datalist id="text_editors">
+                                <select multiple size=8 *ngFor="let result of results">
+                                    <option [value]="result.influencers.location.name_th">
+                                        {{ result.influencers.location.name_th }}
+                                </select>
+                            </datalist>
+
+                        </ng-container>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label for="DIn">วันที่รับรถ</label>
+                        <input type="date" value="{{DIn()}}" min="{{DIn()}}" id="date" class="form-control " required
+                            [(ngModel)]="data.DayIn" name="DayIn" />
+                    </div>
+                    <div class="col-6">
+                        <label for="TimeIn">เวลารับรถ</label>
+                        <input type="time" class="form-control" [(ngModel)]="data.TimeIn" required id="time"
+                            value="10:00:00" min="10:00:00" max="19:00:00" name="TimeIn" />
+                    </div>
+                    <div class="col-6">
+                        <label for="DOut">วันที่คืนรถ</label>
+                        <input type="date" value="{{DOut(DIn)}}" min="{{DOut(DIn)}}" id="date" class="form-control"
+                            [(ngModel)]="data.DayOut" name="DOut" required>
+                    </div>
+                    <div class="col-6">
+                        <label for="TimeOut">เวลาคืนรถ</label>
+                        <input type="time" class="form-control" [(ngModel)]="data.TimeOut" required id="time"
+                            value="10:00:00" min="10:00:00" max="19:00:00" name="TimeOut" />
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input onoffswitch-checkbox" id="inline"
+                                (click)=" toggleAgeCheck()" checked="checked" />
+                            <label class="form-check-label" for="DriverAgeCheck">
+                                คนขับอายุระหว่าง 30 - 65 ? &nbsp;
+                                <i class="fas fa-exclamation-circle" id="infoAge" data-placement="top"
+                                    ngbTooltip="{{infoAge}}" [openDelay]="300" [closeDelay]="500"></i>
+                            </label>
+                        </div>
+                        <ng-container *ngIf="ShowAgeCheck">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label for="inputAge">อายุคนขับ</label>
+                                    <input type="input" id="inputAge" class="form-control mx-sm-2">
+                                </div>
+                            </form>
+                        </ng-container>
+                    </div>
+                </div>
+                <br>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">ค้นหา</button>
+            </form>
+        </div>
+    </div>
+</body>

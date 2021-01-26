@@ -1,0 +1,260 @@
+[
+    {
+        "id": 1,
+        "brand": "BMW",
+        "model": "Series 2",
+        "type": "รถในระดับพรีเมี่ยม",
+        "img_car": "https://i.pinimg.com/736x/77/a8/1d/77a81ddd0ce591c07e5f5dc2467f4e62.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 2,
+        "brand": "BMW",
+        "model": "Series 3",
+        "type": "รถในระดับพรีเมี่ยม",
+        "img_car": "https://www.checkraka.com/uploaded/logo/94/94568064f7cc3b3a9a43db135832a82f.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 3,
+        "brand": "Benz",
+        "model": "E-class",
+        "type": "รถในระดับพรีเมี่ยม",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2016/Mercedes-Benz/E-Class/Sedan/trim_Base_0b8ce9/color/Polar%20White-149-227%2C228%2C232-640-en_US.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 4,
+        "brand": "Chevrolet",
+        "model": "Trax LT",
+        "type": "รถ SUVs",
+        "img_car": "https://www.browndaubchevy.com/assets/stock/colormatched_01/white/640/cc_2020chs32_01_640/cc_2020chs320015_01_640_gaz.jpg?height=400",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 5,
+        "brand": "Honda",
+        "model": "Civic",
+        "type": "รถขนาดกลาง",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2020/Honda/Civic/Hatchback/trim_Sport_Touring_d79b0c/color/Platinum%20White%20Pearl-WX-224%2C221%2C212-640-en_US.jpg?impolicy=resize&w=640",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 6,
+        "brand": "Isuzu",
+        "model": "D-Max",
+        "type": "รถขนาดใหญ่",
+        "img_car": "https://www.checkraka.com/uploaded/article/news/1376865/Cab4%20S%20%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%B1%E0%B8%95%E0%B9%82%E0%B8%99%E0%B8%A1%E0%B8%B1%E0%B8%95%E0%B8%B4%20%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B9%84%E0%B8%8B%E0%B8%9A%E0%B8%B5%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 7,
+        "brand": "Lexus",
+        "model": "ES 350",
+        "type": "รถในระดับพรีเมี่ยม",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2018/Lexus/ES%20350/Sedan/trim_Base_a1b20e/color/Eminent%20White%20Pearl-085-215%2C212%2C204-640-en_US.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 8,
+        "brand": "Mazda",
+        "model": "CX-5",
+        "type": "รถ SUVs",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2020/Mazda/CX-5/SUV/trim_Grand_Touring_a55b46/color/Snowflake%20White%20Pearl%20Mica-25D-231%2C232%2C232-640-en_US.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 9,
+        "brand": "Mitsubishi",
+        "model": "Mirage",
+        "type": "รถขนาดเล็ก",
+        "img_car": "https://www.jimshorkeyuniontownmitsubishi.com/assets/stock/ColorMatched_01/White/640/cc_2020MIC19_01_640/cc_2020MIC190006_01_640_W54.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "1",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 10,
+        "brand": "MG",
+        "model": "ZS",
+        "type": "รถ SUVs",
+        "img_car": "https://motoring.pxcrush.net/motoring/general/editorial/mgzsexcitemy19_04.jpg?width=640",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 11,
+        "brand": "Vollvo",
+        "model": "XC60 T5",
+        "type": "",
+        "img_car": "https://s.isanook.com/au/0/rp/r/w728/ya0xa0m1w0/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2F1LzAvdWQvMTMvNjkwMjEvMjA1LmpwZw==.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 12,
+        "brand": "Land Lover",
+        "model": "",
+        "type": "รถ SUVs",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2020/Land%20Rover/Range%20Rover%20Sport/SUV/trim_HSE_MHEV_ab227c/color/Fuji%20White-1AA-227%2C232%2C226-640-en_US.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 13,
+        "brand": "Mini",
+        "model": "",
+        "type": "รถขนาดเล็ก",
+        "img_car": "https://images.dealer.com/ddc/vehicles/2020/MINI/Hardtop/Hatchback/trim_Cooper_S_a2c933/color/White%20Silver%20Metallic-A62-176%2C174%2C170-640-en_US.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "2",
+            "suitcase": "1",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 14,
+        "brand": "Toyota",
+        "model": "Camry",
+        "type": "รถขนาดใหญ่",
+        "img_car": "https://d2pa5gi5n2e1an.cloudfront.net/ph/images/car_models/Toyota_Camry/13/exterior/exterior_2L_1.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "2",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 15,
+        "brand": "Toyota",
+        "model": "Yaris",
+        "type": "รถขนาดเล็ก",
+        "img_car": "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Toyota_Yaris/7/color/02_Platinum_White_Pearl/2L_1.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "1",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 16,
+        "brand": "Toyota",
+        "model": "Yaris Ativ",
+        "type": "รถขนาดกลาง",
+        "img_car": "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Toyota_Yaris_Ativ/3/main/L_1.jpg",
+        "details_car": {
+            "seat": "4",
+            "door": "4",
+            "suitcase": "1",
+            "suitcase_rolling": "1",
+            "air": "AC",
+            "gear": "AT"
+        }
+    },
+    {
+        "id": 1,
+        "name_company": "",
+        "contact": {
+            "tel": "",
+            "fax": "",
+            "link_url": ""
+        },
+        "price": "",
+        "promotion": "",
+        "services": {
+            "insulance_theft": "",
+            "insulance_car": "",
+            "change_car": "",
+            "oil_full": "",
+            "oil_limite": ""
+        }
+    }
+]

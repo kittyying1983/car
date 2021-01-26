@@ -1,0 +1,27 @@
+<br>
+<div class="container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" *ngFor="let result of results">
+                <div class="row" id="ads">
+                    <div class="col-md-12">
+                        <div class="card rounded" >
+                            <div class="card-image">
+                                <span class="card-notify-badge">{{result.typecar}}</span>
+                                <img class="img-fluid" src="{{result.imagecar}}" alt="Alternate Text" />
+                            </div>
+                            <div class="card-body text-center">
+                                <a class="ad-btn" href="#">ราคาเริ่มต้นที่ {{result.pricecar}} ฿</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    </div>
+</div>

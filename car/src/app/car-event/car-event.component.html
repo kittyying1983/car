@@ -1,0 +1,23 @@
+<!-- <p>car-event</p> -->
+<div class="relative">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+        <app-menu-bar></app-menu-bar>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+    
+    <div id="main">
+        <div class="absolute">
+            <span style="font-size:30px;cursor:pointer"  (click)="openNav()">&#9776;</span>
+        </div>
+        <div class="relative">            
+            <app-search-menu></app-search-menu>
+            <app-category-car></app-category-car>
+            <app-car-detail></app-car-detail>
+        </div>
+    </div>
+</div>
+

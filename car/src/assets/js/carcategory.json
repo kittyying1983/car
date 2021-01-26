@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1,
+        "typecar" : "รถขนาดเล็ก",
+        "imagecar" : "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Toyota_Yaris/7/color/02_Platinum_White_Pearl/2L_1.jpg",
+        "pricecar" : "598.00",
+        "linkurl" : ""
+        
+    },
+    {
+        "id" : 2,
+        "typecar" : "รถขนาดกลาง",
+        "imagecar" : "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Toyota_Yaris_Ativ/3/main/L_1.jpg",
+        "pricecar" : "598.00",
+        "linkurl" : ""
+    },
+    {
+        "id" : 3,
+        "typecar" : "รถขนาดใหญ่",
+        "imagecar" : "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Lexus_IS/3/main/L_1.jpg",
+        "pricecar" : "898.00",
+        "linkurl" : ""
+    },
+    {
+        "id" : 4,
+        "typecar" : "รถในระดับพรีเมี่ยม",
+        "imagecar" : "https://images.dealer.com/ddc/vehicles/2020/Mazda/CX-5/SUV/trim_Grand_Touring_a55b46/color/Snowflake%20White%20Pearl%20Mica-25D-231%2C232%2C232-640-en_US.jpg",
+        "pricecar" : "898.00",
+        "linkurl" : ""
+    },
+    {
+        "id" : 5,
+        "typecar" : "รถตู้",
+        "imagecar" : "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Lexus_LM/1/color/02_White/2L_1.jpg",
+        "pricecar" : "1,798.00",
+        "linkurl" : ""
+    },
+    {
+        "id" : 6,
+        "typecar" : "รถ SUVs",
+        "imagecar" : "https://d2pa5gi5n2e1an.cloudfront.net/webp/th/images/car_models/Lexus_NX/1/main/L_1.jpg",
+        "pricecar" : "1,598.00",
+        "linkurl" : "" 
+    }
+]

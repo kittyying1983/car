@@ -1,0 +1,68 @@
+.fa.fa-angle-right{
+    font-size: 85px;
+    color: gray;
+    width: 100%;
+    height: auto;
+}
+
+.modal-title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 150%;
+}
+
+.modal.fade{
+    font-family: 'Kanit', sans-serif;
+}
+
+.search-menu{
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+
+
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 3px) !important;
+    border-radius:5;
+    font-family: 'Kanit', sans-serif;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(2.6rem + 2px) !important;
+    border-radius:5;
+    font-family: 'Kanit', sans-serif;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        /* top: -114px; */
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+
+
+
+
+
